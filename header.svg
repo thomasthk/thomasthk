@@ -1,4 +1,4 @@
-<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 400" width="100%" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Dark gradient background -->
     <linearGradient id="bgGradient" gradientUnits="userSpaceOnUse" x1="400" y1="0" x2="400" y2="400">
@@ -9,7 +9,7 @@
 
     <!-- Orb blur filter -->
     <filter id="orbBlur" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="50" />
+      <feGaussianBlur stdDeviation="35" />
     </filter>
 
     <!-- Glass card shadow -->
@@ -60,22 +60,25 @@
     <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="6s" repeatCount="indefinite" />
 
     <!-- Card background -->
-    <rect x="175" y="75" width="450" height="250" rx="20" fill="url(#glassFill)" />
+    <rect x="100" y="70" width="600" height="260" rx="20" fill="url(#glassFill)" />
 
     <!-- Card border -->
-    <rect x="175" y="75" width="450" height="250" rx="20" fill="none" stroke="url(#glassBorder)" stroke-width="1" />
+    <rect x="100" y="70" width="600" height="260" rx="20" fill="none" stroke="url(#glassBorder)" stroke-width="1" />
 
     <!-- Hi heading -->
-    <text x="400" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="42" font-weight="600" fill="rgba(255,255,255,0.95)" letter-spacing="-0.5">Hi there</text>
+    <text x="400" y="140" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="42" font-weight="600" fill="rgba(255,255,255,0.95)" letter-spacing="-0.5">Hi there</text>
 
     <!-- Body text line 1 -->
-    <text x="400" y="186" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="17" font-weight="400" fill="rgba(255,255,255,0.5)">Welcome to my GitHub. Not sure how you ended up here,</text>
+    <text x="400" y="180" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="17" font-weight="400" fill="rgba(255,255,255,0.5)">Welcome to my GitHub.</text>
 
     <!-- Body text line 2 -->
-    <text x="400" y="210" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="17" font-weight="400" fill="rgba(255,255,255,0.5)">but while you're at it, fancy a look at my site?</text>
+    <text x="400" y="204" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="17" font-weight="400" fill="rgba(255,255,255,0.5)">Not sure how you ended up here, but while</text>
+
+    <!-- Body text line 3 -->
+    <text x="400" y="228" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="17" font-weight="400" fill="rgba(255,255,255,0.5)">you're at it, fancy a look at my site?</text>
 
     <!-- Pill button -->
-    <rect x="305" y="232" width="190" height="40" rx="20" fill="url(#pillFill)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
-    <text x="400" y="257" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="15" font-weight="500" fill="rgba(255,255,255,0.8)" letter-spacing="0.3">thomas-tong.com →</text>
+    <rect x="305" y="248" width="190" height="40" rx="20" fill="url(#pillFill)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+    <text x="400" y="273" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="15" font-weight="500" fill="rgba(255,255,255,0.8)" letter-spacing="0.3">thomas-tong.com →</text>
   </g>
 </svg>
