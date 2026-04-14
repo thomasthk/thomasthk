@@ -75,7 +75,7 @@
     <text x="400" y="204" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="17" font-weight="400" fill="rgba(255,255,255,0.5)">Not sure how you ended up here, but while</text>
 
     <!-- Body text line 3 -->
-    <text x="400" y="228" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="17" font-weight="400" fill="rgba(255,255,255,0.5)">you're at it, fancy a look at my site?</text>
+    <text x="400" y="228" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="17" font-weight="400" fill="rgba(255,255,255,0.5)">you're here, fancy a look at my site?</text>
 
     <!-- Pill button -->
     <rect x="305" y="248" width="190" height="40" rx="20" fill="url(#pillFill)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
